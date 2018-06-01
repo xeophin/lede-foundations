@@ -14,4 +14,7 @@
     <orderEntry type="library" name="R User Library" level="project" />
     <orderEntry type="library" name="Python 3.6 interpreter library" level="application" />
   </component>
+  <component name="PyDocumentationSettings">
+    <option name="renderExternalDocumentation" value="true" />
+  </component>
 </module>
