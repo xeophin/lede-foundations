@@ -1,0 +1,1 @@
+use cd, ls and cat to browse until you find your reward.
