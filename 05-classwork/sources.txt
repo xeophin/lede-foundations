@@ -1,0 +1,8 @@
+# Dataset sources
+
+Medical Examiner Case Archive: https://datacatalog.cookcountyil.gov/Public-Safety/Medical-Examiner-Case-Archive/cjeq-bs86
+UK Gender Pay Gap: https://gender-pay-gap.service.gov.uk/
+School Shootings: https://www.washingtonpost.com/graphics/2018/local/school-shootings-database/
+countries.csv: I have no idea. It's old, bad data, though.
+
+All pulled from recent issues of the newsletter Data is Plural https://tinyletter.com/data-is-plural
