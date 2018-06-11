@@ -1,0 +1,23 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+GET http://api.hm.com/v2/us/en/products/display?categories=sale%2Fhome&concealCategories=true&pageSize=60&page=1&deviceType=DESKTOP
+Accept: application/json
+
+###
+
+curl '' \
+#-XGET \
+#-H 'Origin: http://www.hm.com' \
+#-H 'Host: api.hm.com' \
+#-H 'DNT: 1' \
+#-H 'Connection: keep-alive' \
+#-H 'Accept-Language: en-gb' \
+#-H 'Accept-Encoding: gzip, deflate' \
+#-H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.1 Safari/605.1.15' \
+#-H 'Accept: application/json' \
+#-H 'Referer: http://www.hm.com/us/products/sale/home'
