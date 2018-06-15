@@ -1,0 +1,4 @@
+amount_paid,case_no,citation,citation_no,citation_status,contract_id,current_penalty,date_issues,date_terminated,final_order_date,proposed_penalty,s_and_s,section_of_act,standard,standard_url,violator
+171.00 ,000420126,C,9870748  ,Closed,  ,171.00 ,8/3/2016,8/3/2016,10/29/2016 ,171.00,N,104(a),71.206(a),http://www.gpo.gov/fdsys/pkg/CFR-2016-title30-vol1/pdf/CFR-2016-title30-vol1-sec71-206.pdf,"PB Dirt Movers, Inc"
+100.00 ,000409535,C,9093457  ,Closed,  ,100.00 ,3/10/2016,3/15/2016,6/19/2016 ,100.00,N,104(a),77.1104,http://www.gpo.gov/fdsys/pkg/CFR-2016-title30-vol1/pdf/CFR-2016-title30-vol1-sec77-1104.pdf,"PB Dirt Movers, Inc"
+150.00 ,000409535,C,9093458  ,Closed,  ,150.00 ,3/10/2016,3/15/2016,6/19/2016 ,150.00,Y,104(a),77.404(a),http://www.gpo.gov/fdsys/pkg/CFR-2016-title30-vol1/pdf/CFR-2016-title30-vol1-sec77-404.pdf,"PB Dirt Movers, Inc"
