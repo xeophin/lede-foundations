@@ -1,0 +1,2 @@
+0 0 * * * python3 darksky.py
+* */6 * * * python3 digest.py
