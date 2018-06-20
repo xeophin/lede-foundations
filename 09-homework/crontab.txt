@@ -1,2 +1,2 @@
-0 0 * * * python3 darksky.py
-* */6 * * * python3 digest.py
+0 12 * * * python3 darksky.py
+0 */6 * * * python3 digest.py
