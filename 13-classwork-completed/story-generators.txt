@@ -1,0 +1,75 @@
+Generating story ideas
+======================
+
+You'll do this differently in the newsroom, but hey, why not have some sort of template.
+
+
+1. Three general topics you're interested in
+
+For example, nature
+
+
+
+2. For each topic, three more specific topics. You don't have to be specifically interested in them, but it will help.
+
+For example, nature: trees, soil, parks
+
+
+3. For each of those 'more specific' topics, think of 3 questions, investigative topics, or visualizations ideas. *They don't need to be about data*
+
+Trees
+  - Map of all of the trees in New York City (simple visualization)
+  - Deforestation in New Zealand (more specific topic)
+  - Where has a deforested place grown its trees back? (question)
+
+
+
+4. For some of your favorite topics, try to list 3 places you might go for data or people you might talk to for tips (WITHOUT GOOGLING, it's okay if you're terrible at this)
+
+  Map of all of the trees in New York City:
+    - New York Parks Department
+    - Environmental Protection Agency
+    - Citizen tree groups
+  Deforestation in New Zealand:
+    - New Zealand government
+    - Environmental groups
+  Where has a deforested place grown its trees back?
+    - Research papers (Columbia library search)
+    - Someone in the ecology/environmental stuff department???
+    - I have no idea
+
+
+
+5. What's the "at least" and the "nice to have" for each project?
+
+  NYC trees
+    minimum
+      - X is the most popular tree in New York.
+    nice to have
+      - map of trees
+      - bar graph of all of the trees
+      - most popular trees by neighborhood
+
+  Deforested places
+    minimum
+      - bar graph of trees in a single region comparing two years
+    nice to have 
+      - I find a lot of text and documents and shapefiles
+      - make maps and line graphs over time
+
+  Deforestation in New Zealand
+    minimum
+      - bar graph of before/after comparing two years
+    nice to have
+      - lots of words
+      - map(s) of before/after
+      - line graph with a lot of time
+      - data about other places to compare
+
+
+6. Share it with your group. What do they think?
+
+
+
+7. Go try to find some data real quick. Did you find what you needed? How might you adjust your project?
+
