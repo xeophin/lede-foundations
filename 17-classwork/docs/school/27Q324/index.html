@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Title</title>
+  <link rel='stylesheet'
+      href='https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.css'
+      integrity='sha256-ncjDAd2/rm/vaNTqp7Kk96MfSeHACtbiDU9NWKqNuCI='
+      crossorigin='anonymous'>
+  <script src='https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.js'
+      integrity='sha256-0gIvTkdsp0OOeV8tx3UTdi3ehppGwZbzQMvZJYhbzsE='
+      crossorigin='anonymous'></script>
+</head>
+<body>
+<header class='ui blue top attached large menu'>
+  <div class='ui container'>
+    <div class='header item'>Schools and Stuff</div>
+    <a href='/schools' class='item'>School List</a>
+    <div class='right menu'>
+      <form class='ui right aligned category search item' action='/search'>
+        <div class='ui transparent icon input'>
+          <input class='prompt' type='search' placeholder='Search ...'> <i class='search link icon'></i>
+        </div>
+        <div class='results'></div>
+      </form>
+    </div>
+  </div>
+</header>
+<main class='ui vertical very padded segment'>
+  <div class='ui text container'>
+    
+<div class='ui breadcrumb'>
+  <a class='section' href='/schools'>List</a> <i class='right angle icon divider'></i> 
+  <div class='active section'>Detail</div>
+</div>
+
+<div class='ui top attached blue segment'>
+  <div class='content'><h1 class='header'>Rockaway Park High School for Environmental Sustainability</h1>
+    <div class='meta'>
+      <div>100-00 BEACH CHANNEL DRIVE,  QUEENS, NY 11694</div></div></div>
+</div>
+<div class='ui bottom attached segment'>
+  <div class='ui grid'>
+    <div class='stackable divided row'>
+      <div class='six wide column'>
+        <h2 class='ui header'>Contact</h2>
+        <p>Phone number: 718-734-3280</p>
+        <p>Fax number: 718-734-3286</p>
+        <p>School email: Ddefreitas2@schools.nyc.gov</p>
+        <p><a class='btn btn-warning'>Email us</a></p>
+      </div>
+      <div class='ten wide column'>
+        <link rel='stylesheet' href='https://unpkg.com/leaflet@1.3.3/dist/leaflet.css'
+            integrity='sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=='
+            crossorigin='' />
+        <!-- Make sure you put this AFTER Leaflet's CSS -->
+        <script src='https://unpkg.com/leaflet@1.3.3/dist/leaflet.js'
+            integrity='sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=='
+            crossorigin=''></script>
+        <div id='mapid'></div>
+        <style>
+          #mapid {
+            height: 400px;
+          }
+        </style>
+        <script>
+          var map = L.map('mapid').setView([40.58608,
+          -73.82258], 13);
+
+          L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
+            attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+            subdomains: 'abcd',
+            minZoom: 1,
+            maxZoom: 16,
+            ext: 'png'
+          }).addTo(map)
+
+          var marker = L.marker([40.58608, -73.82258]).addTo(map);
+          marker.bindPopup("Rockaway Park High School for Environmental Sustainability").openPopup();
+        </script>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</main>
+<footer class='ui vertical inverted blue very padded segment'>
+  <div class='ui container'>
+    <small>&copy; 2018</small>
+  </div>
+</footer>
+</body>
+</html>

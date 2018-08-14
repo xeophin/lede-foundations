@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+  <div class='ui breadcrumb'>
+    <a class='active section' href='/schools'>List</a>
+  </div>
+
+  <div class='ui divider'></div>
+
+  <h1 class='ui header'>Schools</h1>
+  <ul class='ui list'>
+
+    {% for school in schools %}
+      <li class='item'>
+        <a href='{{ url_for("school", dbn=school.dbn) }}'>{{ school.school_name }}</a>
+      </li>
+    {% endfor %}
+
+  </ul>
+{% endblock %}

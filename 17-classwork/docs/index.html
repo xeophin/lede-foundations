@@ -1,0 +1,1802 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Title</title>
+  <link rel='stylesheet'
+      href='https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.css'
+      integrity='sha256-ncjDAd2/rm/vaNTqp7Kk96MfSeHACtbiDU9NWKqNuCI='
+      crossorigin='anonymous'>
+  <script src='https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.js'
+      integrity='sha256-0gIvTkdsp0OOeV8tx3UTdi3ehppGwZbzQMvZJYhbzsE='
+      crossorigin='anonymous'></script>
+</head>
+<body>
+<header class='ui blue top attached large menu'>
+  <div class='ui container'>
+    <div class='header item'>Schools and Stuff</div>
+    <a href='/schools' class='item'>School List</a>
+    <div class='right menu'>
+      <form class='ui right aligned category search item' action='/search'>
+        <div class='ui transparent icon input'>
+          <input class='prompt' type='search' placeholder='Search ...'> <i class='search link icon'></i>
+        </div>
+        <div class='results'></div>
+      </form>
+    </div>
+  </div>
+</header>
+<main class='ui vertical very padded segment'>
+  <div class='ui text container'>
+    
+
+  <div class='ui breadcrumb'>
+    <a class='active section' href='/schools'>List</a>
+  </div>
+
+  <div class='ui divider'></div>
+
+  <h1 class='ui header'>Schools</h1>
+  <ul class='ui list'>
+
+    
+      <li class='item'>
+        <a href='school/01M292/index.html'>Henry Street School for International Studies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/01M448/index.html'>University Neighborhood High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/01M450/index.html'>East Side Community School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/01M509/index.html'>Marta Valle High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/01M539/index.html'>New Explorations into Science, Technology and Math High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/01M696/index.html'>Bard High School Early College</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M047/index.html'>47 The American Sign Language and English Secondary School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M135/index.html'>The Urban Assembly School for Emergency Management</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M139/index.html'>Stephen T. Mather Building Arts &amp; Craftsmanship High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M260/index.html'>M.S. 260 Clinton School Writers &amp; Artists</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M280/index.html'>Manhattan Early College School for Advertising</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M282/index.html'>Urban Assembly Maker Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M288/index.html'>Food and Finance High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M294/index.html'>Essex Street Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M296/index.html'>High School of Hospitality Management</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M298/index.html'>Pace High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M300/index.html'>Urban Assembly School of Design and Construction, The</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M303/index.html'>Facing History School, The</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M305/index.html'>Urban Assembly Academy of Government and Law, The</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M308/index.html'>Lower Manhattan Arts Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M316/index.html'>Urban Assembly School of Business for Young Women, the</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M374/index.html'>Gramercy Arts High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M376/index.html'>NYC iSchool</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M392/index.html'>MANHATTAN BUSINESS ACADEMY</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M393/index.html'>BUSINESS OF SPORTS SCHOOL</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M399/index.html'>THE HIGH SCHOOL FOR LANGUAGE AND DIPLOMACY</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M400/index.html'>High School for Environmental Studies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M407/index.html'>Institute for Collaborative Education</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M408/index.html'>Professional Performing Arts High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M411/index.html'>Baruch College Campus High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M412/index.html'>N.Y.C. Lab School for Collaborative Studies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M413/index.html'>School of the Future High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M414/index.html'>N.Y.C. Museum School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M416/index.html'>Eleanor Roosevelt High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M418/index.html'>Millennium High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M419/index.html'>Landmark High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M420/index.html'>High School for Health Professions and Human Services</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M422/index.html'>Quest to Learn</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M425/index.html'>Leadership and Public Service High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M427/index.html'>MANHATTAN ACADEMY FOR ARTS &amp; LANGUAGE</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M432/index.html'>Murray Hill Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M437/index.html'>Hudson High School of Learning Technologies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M438/index.html'>International High School at Union Square</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M439/index.html'>Manhattan Village Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M449/index.html'>Vanguard High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M459/index.html'>Manhattan International High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M475/index.html'>Stuyvesant High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M489/index.html'>High School of Economics and Finance</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M500/index.html'>Unity Center for Urban Technologies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M507/index.html'>Urban Assembly Gateway School for Technology</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M519/index.html'>Talent Unlimited High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M520/index.html'>Murry Bergtraum High School for Business Careers</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M529/index.html'>Jacqueline Kennedy Onassis High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M531/index.html'>Repertory Company High School for Theatre Arts</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M533/index.html'>Union Square Academy for Health Sciences</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M534/index.html'>Harvest Collegiate High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M542/index.html'>Manhattan Bridges High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M543/index.html'>New Design High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M545/index.html'>High School for Dual Language and Asian Studies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M546/index.html'>Academy for Software Engineering</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M551/index.html'>Urban Assembly New York Harbor School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M580/index.html'>Richard R. Green High School of Teaching</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M600/index.html'>The High School of Fashion Industries</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M605/index.html'>Humanities Preparatory Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M615/index.html'>Chelsea Career and Technical Education High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M630/index.html'>Art and Design High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/02M655/index.html'>Life Sciences Secondary School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/03M299/index.html'>High School for Arts, Imagination and Inquiry</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/03M307/index.html'>Urban Assembly School for Media Studies, The</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/03M402/index.html'>The Urban Assembly School for Green Careers</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/03M403/index.html'>The Global Learning Collaborative</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/03M415/index.html'>Wadleigh Secondary School for the Performing &amp; Visual Arts</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/03M417/index.html'>FRANK McCOURT HIGH SCHOOL</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/03M479/index.html'>Beacon High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/03M485/index.html'>Fiorello H. LaGuardia High School of Music &amp; Art and Performing Arts</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/03M492/index.html'>High School for Law, Advocacy and Community Justice</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/03M494/index.html'>High School of Arts and Technology</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/03M541/index.html'>Manhattan / Hunter Science High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/03M859/index.html'>Special Music School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/03M860/index.html'>Frederick Douglass Academy II Secondary School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/04M372/index.html'>ESPERANZA PREPARATORY ACADEMY</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/04M409/index.html'>Coalition School for Social Change</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/04M435/index.html'>Manhattan Center for Science and Mathematics</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/04M495/index.html'>Park East High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/04M555/index.html'>Central Park East High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/04M610/index.html'>Young Women&#39;s Leadership School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/04M680/index.html'>Heritage School, The</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/05M148/index.html'>Eagle Academy for Young Men of Harlem</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/05M157/index.html'>The Urban Assembly School for Global Commerce</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/05M304/index.html'>Mott Hall High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/05M362/index.html'>Columbia Secondary School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/05M367/index.html'>Academy for Social Action: A College Board School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/05M369/index.html'>Urban Assembly School for the Performing Arts</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/05M499/index.html'>Frederick Douglass Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/05M670/index.html'>Thurgood Marshall Academy for Learning and Social Change</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/05M692/index.html'>High School for Mathematics, Science and Engineering at City College</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/06M211/index.html'>Inwood Early College for Health and Information Technologies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/06M293/index.html'>City College Academy of the Arts</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/06M346/index.html'>Community Health Academy of the Heights</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/06M348/index.html'>Washington Heights Expeditionary Learning School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/06M423/index.html'>High School for Excellence and Innovation</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/06M462/index.html'>The College Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/06M463/index.html'>High School for Media and Communications</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/06M467/index.html'>High School for Law and Public Service</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/06M468/index.html'>High School for Health Careers and Sciences</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/06M540/index.html'>A. Philip Randolph Campus High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/06M552/index.html'>Gregorio Luperon High School for Science and Mathematics</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/07X221/index.html'>South Bronx Preparatory: A College Board School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/07X223/index.html'>M.S. 223 The Laboratory School of Finance and Technology</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/07X259/index.html'>H.E.R.O. High (Health, Education, and Research Occupations High School)</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/07X334/index.html'>International Community High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/07X427/index.html'>Community School for Social Justice</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/07X473/index.html'>Mott Haven Village Preparatory High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/07X495/index.html'>University Heights Secondary School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/07X500/index.html'>Hostos-Lincoln Academy of Science</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/07X520/index.html'>Foreign Language Academy of Global Studies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/07X522/index.html'>Bronx Design and Construction Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/07X527/index.html'>Bronx Leadership Academy II High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/07X547/index.html'>New Explorers High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/07X548/index.html'>Urban Assembly School for Careers in Sports</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/07X551/index.html'>The Urban Assembly Bronx Academy of Letters</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/07X600/index.html'>Alfred E. Smith Career and Technical Education High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/07X670/index.html'>Health Opportunities High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/08X269/index.html'>Bronx Studio School for Writers and Artists</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/08X282/index.html'>Women&#39;s Academy of Excellence</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/08X293/index.html'>Renaissance High School for Musical Theater &amp; Technology</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/08X305/index.html'>Pablo Neruda Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/08X312/index.html'>Millennium Art Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/08X320/index.html'>Pelham Lab High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/08X332/index.html'>Holcombe L. Rucker School of Community Research</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/08X348/index.html'>Schuylerville Preparatory High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/08X349/index.html'>Bronx River High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/08X367/index.html'>Archimedes Academy for Math, Science and Technology Applications</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/08X376/index.html'>Antonia Pantoja Preparatory Academy: A College Board School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/08X405/index.html'>Herbert H. Lehman High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/08X432/index.html'>BRONX BRIDGES HIGH SCHOOL</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/08X452/index.html'>Bronx Guild</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/08X519/index.html'>Felisa Rincon de Gautier Institute for Law and Public Policy, The</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/08X530/index.html'>Banana Kelly High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/08X558/index.html'>Westchester Square Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/08X559/index.html'>School for Tourism and Hospitality</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/08X561/index.html'>Bronx Compass High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X227/index.html'>Bronx Collegiate Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X231/index.html'>Eagle Academy for Young Men</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X241/index.html'>Urban Assembly School for Applied Math and Science, The</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X250/index.html'>Eximius College Preparatory Academy: A College Board School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X252/index.html'>Mott Hall Bronx High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X260/index.html'>Bronx Center for Science and Mathematics</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X263/index.html'>Validus Preparatory Academy: An Expeditionary Learning School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X276/index.html'>Leadership Institute</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X297/index.html'>Morris Academy for Collaborative Studies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X324/index.html'>Bronx Early College Academy for Teaching &amp; Learning</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X327/index.html'>Comprehensive Model School Project M.S. 327</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X329/index.html'>DreamYard Preparatory School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X350/index.html'>New Directions Secondary School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X365/index.html'>Academy for Language and Technology</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X403/index.html'>Bronx International High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X404/index.html'>School for Excellence</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X412/index.html'>Bronx High School of Business</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X413/index.html'>Bronx High School for Medical Science</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X505/index.html'>Bronx School for Law, Government and Justice</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X517/index.html'>Frederick Douglass Academy III Secondary School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X525/index.html'>Bronx Leadership Academy High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X543/index.html'>High School for Violin and Dance</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X564/index.html'>Claremont International HS</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/09X568/index.html'>Young Women&#39;s Leadership School of the Bronx</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X141/index.html'>Riverdale / Kingsbridge Academy (Middle School / High School 141)</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X213/index.html'>Bronx Engineering and Technology Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X225/index.html'>Theatre Arts Production Company School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X237/index.html'>The Marie Curie School for Medicine, Nursing, and Health Professions</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X243/index.html'>West Bronx Academy for the Future</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X264/index.html'>Bronx Academy for Software Engineering (BASE)</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X268/index.html'>Kingsbridge International High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X284/index.html'>Bronx School of Law and Finance</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X342/index.html'>International School for Liberal Arts</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X351/index.html'>Bronx Collaborative High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X353/index.html'>World View High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X368/index.html'>In-Tech Academy (M.S. / High School 368)</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X374/index.html'>Knowledge and Power Preparatory Academy International High School (Kappa)</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X433/index.html'>High School for Teaching and the Professions</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X434/index.html'>Belmont Preparatory High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X437/index.html'>Fordham High School for the Arts</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X438/index.html'>Fordham Leadership Academy for Business and Technology</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X439/index.html'>Bronx High School for Law and Community Service</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X440/index.html'>DeWitt Clinton High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X442/index.html'>Celia Cruz Bronx High School of Music, The</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X445/index.html'>Bronx High School of Science</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X477/index.html'>Marble Hill High School for International Studies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X524/index.html'>Crotona International High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X546/index.html'>Bronx Theatre High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X549/index.html'>Discovery High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X565/index.html'>High School for Energy and Technology</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/10X696/index.html'>High School of American Studies at Lehman College</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/11X249/index.html'>Bronx Health Sciences High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/11X253/index.html'>Bronx High School for Writing and Communication Arts</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/11X265/index.html'>Bronx Lab School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/11X270/index.html'>Academy for Scholarship and Entrepreneurship: A College Board School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/11X275/index.html'>High School of Computers and Technology</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/11X288/index.html'>Collegiate Institute for Math and Science</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/11X290/index.html'>Bronx Academy of Health Careers</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/11X299/index.html'>Astor Collegiate Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/11X418/index.html'>Bronx High School for the Visual Arts</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/11X455/index.html'>Harry S Truman High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/11X508/index.html'>Bronxdale High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/11X509/index.html'>High School of Language and Innovation</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/11X513/index.html'>New World High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/11X514/index.html'>The Bronxwood Preparatory Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/11X542/index.html'>Pelham Preparatory Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/11X544/index.html'>High School for Contemporary Arts</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/11X545/index.html'>Bronx Aerospace High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/12X242/index.html'>Mott Hall V</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/12X248/index.html'>Metropolitan High School, The</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/12X251/index.html'>Explorations Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/12X267/index.html'>Bronx Latin</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/12X271/index.html'>East Bronx Academy for the Future</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/12X278/index.html'>Peace and Diversity Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/12X372/index.html'>Urban Assembly School for Wildlife Conservation</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/12X388/index.html'>Pan American International High School at Monroe</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/12X478/index.html'>THE CINEMA SCHOOL</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/12X479/index.html'>Bronx Career and College Preparatory High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/12X511/index.html'>Bronx Envision Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/12X521/index.html'>The Metropolitan Soundview High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/12X550/index.html'>High School of World Cultures</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/12X682/index.html'>Fannie Lou Hamer Freedom High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/12X684/index.html'>Wings Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/12X692/index.html'>Monroe Academy for Visual Arts &amp; Design</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/13K265/index.html'>Dr. Susan S. McKinney Secondary School of the Arts</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/13K350/index.html'>Urban Assembly High School of Music and Art</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/13K412/index.html'>Brooklyn Community High School of Communication, Arts and Media</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/13K419/index.html'>Science Skills Center High School for Science, Technology and the Creative Arts</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/13K430/index.html'>Brooklyn Technical High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/13K439/index.html'>Brooklyn International High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/13K483/index.html'>The Urban Assembly School for Law and Justice</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/13K499/index.html'>ACORN Community High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/13K527/index.html'>Urban Assembly Institute of Math and Science for Young Women</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/13K595/index.html'>Bedford Academy High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/13K605/index.html'>George Westinghouse Career and Technical Education High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/13K670/index.html'>Benjamin Banneker Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/13K674/index.html'>City Polytechnic High School of Engineering, Architecture, and Technology</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/14K071/index.html'>Juan Morel Campos Secondary School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/14K322/index.html'>Foundations Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/14K449/index.html'>Brooklyn Latin School, The</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/14K454/index.html'>Green School: An Academy for Environmental Careers</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/14K474/index.html'>PROGRESS High School for Professional Careers</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/14K477/index.html'>School for Legal Studies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/14K478/index.html'>The High School for Enterprise, Business and Technology</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/14K488/index.html'>Brooklyn Preparatory High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/14K558/index.html'>Williamsburg High School for Architecture and Design</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/14K561/index.html'>Williamsburg Preparatory School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/14K586/index.html'>Lyons Community School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/14K610/index.html'>Automotive High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/14K614/index.html'>Young Women&#39;s Leadership School of Brooklyn</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/14K632/index.html'>Frances Perkins Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/14K685/index.html'>El Puente Academy for Peace and Justice</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/15K423/index.html'>Brooklyn Frontiers High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/15K429/index.html'>Brooklyn School for Global Studies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/15K448/index.html'>Brooklyn Secondary School for Collaborative Studies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/15K462/index.html'>Secondary School for Law</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/15K463/index.html'>Secondary School for Journalism</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/15K464/index.html'>Park Slope Collegiate</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/15K497/index.html'>School for International Studies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/15K519/index.html'>Cobble Hill School of American Studies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/15K592/index.html'>Khalil Gibran International Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/15K656/index.html'>Brooklyn High School of the Arts</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/15K667/index.html'>Sunset Park High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/15K684/index.html'>Millennium Brooklyn HS</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/16K393/index.html'>Frederick Douglass Academy IV Secondary School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/16K455/index.html'>Boys and Girls High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/16K498/index.html'>Brooklyn High School for Law and Technology</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/16K594/index.html'>Gotham Professional Arts Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/16K688/index.html'>The Brooklyn Academy of Global Finance</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/16K765/index.html'>Nelson Mandela High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/17K122/index.html'>Pathways in Technology Early College High School (P-Tech)</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/17K382/index.html'>Academy for College Preparation and Career Exploration: A College Board School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/17K408/index.html'>Academy of Hospitality and Tourism</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/17K524/index.html'>International High School at Prospect Heights</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/17K528/index.html'>The High School for Global Citizenship</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/17K531/index.html'>School for Human Rights, The</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/17K533/index.html'>School for Democracy and Leadership</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/17K537/index.html'>High School for Youth and Community Development at Erasmus</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/17K539/index.html'>High School for Service &amp; Learning at Erasmus</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/17K543/index.html'>Science, Technology and Research Early College High School at Erasmus</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/17K546/index.html'>High School for Public Service: Heroes of Tomorrow</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/17K547/index.html'>Brooklyn Academy of Science and the Environment</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/17K548/index.html'>Brooklyn School for Music &amp; Theatre</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/17K590/index.html'>Medgar Evers College Preparatory School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/17K600/index.html'>Clara Barton High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/17K745/index.html'>Brooklyn Institute for Liberal Arts</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/17K751/index.html'>Academy for Health Careers</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/18K563/index.html'>It Takes a Village Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/18K566/index.html'>Brooklyn Generation School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/18K567/index.html'>Brooklyn Theatre Arts High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/18K569/index.html'>Kurt Hahn Expeditionary Learning School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/18K576/index.html'>Victory Collegiate High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/18K589/index.html'>Arts &amp; Media Preparatory Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/18K617/index.html'>High School for Innovation in Advertising and Media</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/18K629/index.html'>Cultural Academy for the Arts and Sciences</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/18K633/index.html'>High School for Medical Professions</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/18K637/index.html'>Academy for Conservation and the Environment</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/18K642/index.html'>Urban Action Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/19K404/index.html'>Academy for Young Writers</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/19K409/index.html'>East New York Family Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/19K422/index.html'>Spring Creek Community School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/19K502/index.html'>FDNY High School for Fire and Life Safety</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/19K504/index.html'>High School for Civil Rights</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/19K507/index.html'>Performing Arts and Technology High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/19K510/index.html'>World Academy for Total Community Health High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/19K583/index.html'>Multicultural High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/19K615/index.html'>Transit Tech Career and Technical Education High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/19K618/index.html'>Academy of Innovative Technology</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/19K639/index.html'>Brooklyn Lab School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/19K659/index.html'>Cypress Hills Collegiate Preparatory School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/19K660/index.html'>W. H. Maxwell Career and Technical Education High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/19K683/index.html'>The School for Classics: An Academy of Thinkers, Writers and Performers</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/19K764/index.html'>The Urban Assembly School for Collaborative Healthcare</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/20K445/index.html'>New Utrecht High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/20K485/index.html'>High School of Telecommunication Arts and Technology</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/20K490/index.html'>Fort Hamilton High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/20K505/index.html'>Franklin Delano Roosevelt High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/20K609/index.html'>Urban Assembly School for Criminal Justice</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/21K337/index.html'>International High School at Lafayette</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/21K344/index.html'>Rachel Carson High School for Coastal Studies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/21K348/index.html'>High School of Sports Management</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/21K410/index.html'>Abraham Lincoln High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/21K468/index.html'>Kingsborough Early College School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/21K525/index.html'>Edward R. Murrow High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/21K540/index.html'>John Dewey High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/21K559/index.html'>Life Academy High School for Film and Music</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/21K572/index.html'>Expeditionary Learning School for Community Leaders</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/21K620/index.html'>William E. Grady Career and Technical Education High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/21K690/index.html'>Brooklyn Studio Secondary School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/22K405/index.html'>Midwood High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/22K425/index.html'>James Madison High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/22K535/index.html'>Leon M. Goldstein High School for the Sciences</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/22K555/index.html'>Brooklyn College Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/22K611/index.html'>Origins High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/23K493/index.html'>Brooklyn Collegiate: A College Board School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/23K514/index.html'>Frederick Douglass Academy VII High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/23K644/index.html'>Eagle Academy for Young Men II</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/23K697/index.html'>Teachers Preparatory High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/24Q236/index.html'>International High School for Health Sciences</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/24Q264/index.html'>Academy of Finance and Enterprise</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/24Q267/index.html'>High School of Applied Communication</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/24Q293/index.html'>Civic Leadership Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/24Q296/index.html'>Pan American International High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/24Q299/index.html'>Bard High School Early College Queens</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/24Q455/index.html'>Newtown High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/24Q485/index.html'>Grover Cleveland High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/24Q520/index.html'>Middle College High School at LaGuardia Community College</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/24Q530/index.html'>International High School at LaGuardia Community College</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/24Q550/index.html'>High School for Arts and Business</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/24Q560/index.html'>Robert F. Wagner, Jr. Secondary School for Arts and Technology</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/24Q585/index.html'>Maspeth High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/24Q600/index.html'>Queens Vocational and Technical High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/24Q610/index.html'>Aviation Career &amp; Technical Education High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/25Q240/index.html'>Veritas Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/25Q241/index.html'>Queens High School for Language Studies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/25Q252/index.html'>Queens School of Inquiry, The</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/25Q263/index.html'>Flushing International High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/25Q281/index.html'>East-West School of International Studies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/25Q285/index.html'>World Journalism Preparatory: A College Board School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/25Q425/index.html'>John Bowne High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/25Q460/index.html'>Flushing High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/25Q525/index.html'>Townsend Harris High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/25Q670/index.html'>Robert F. Kennedy Community High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/26Q315/index.html'>Business Technology Early College High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/26Q415/index.html'>Benjamin N. Cardozo High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/26Q430/index.html'>Francis Lewis High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/26Q435/index.html'>Martin Van Buren High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/26Q495/index.html'>Bayside High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/26Q566/index.html'>Queens High School of Teaching, Liberal Arts and the Sciences</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/27Q260/index.html'>Frederick Douglass Academy VI High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/27Q262/index.html'>Channel View School for Research</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/27Q302/index.html'>Queens High School for Information, Research, and Technology</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/27Q308/index.html'>Robert H. Goddard High School of Communication Arts and Technology</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/27Q309/index.html'>Academy of Medical Technology: A College Board School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/27Q314/index.html'>Epic High School - South</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/27Q323/index.html'>Scholars&#39; Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/27Q324/index.html'>Rockaway Park High School for Environmental Sustainability</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/27Q334/index.html'>Epic High School - North</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/27Q351/index.html'>Rockaway Collegiate High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/27Q400/index.html'>August Martin High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/27Q475/index.html'>Richmond Hill High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/27Q480/index.html'>John Adams High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/27Q650/index.html'>High School for Construction Trades, Engineering and Architecture</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/28Q167/index.html'>Metropolitan Expeditionary Learning School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/28Q284/index.html'>York Early College Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/28Q310/index.html'>Queens Collegiate: A College Board School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/28Q325/index.html'>Hillside Arts &amp; Letters Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/28Q328/index.html'>High School for Community Leadership</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/28Q350/index.html'>Jamaica Gateway to the Sciences</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/28Q440/index.html'>Forest Hills High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/28Q505/index.html'>Hillcrest High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/28Q620/index.html'>Thomas A. Edison Career and Technical Education High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/28Q680/index.html'>Queens Gateway to Health Sciences Secondary School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/28Q686/index.html'>QUEENS METROPOLITAN HIGH SCHOOL</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/28Q687/index.html'>Queens High School for the Sciences at York College</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/28Q690/index.html'>High School for Law Enforcement and Public Safety</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/28Q896/index.html'>Young Women&#39;s Leadership School, Queens</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/29Q243/index.html'>Institute for Health Professions at Cambria Heights</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/29Q248/index.html'>Queens Preparatory Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/29Q259/index.html'>Pathways College Preparatory School: A College Board School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/29Q265/index.html'>Excelsior Preparatory High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/29Q272/index.html'>George Washington Carver High School for the Sciences</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/29Q283/index.html'>Preparatory Academy for Writers: A College Board School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/29Q313/index.html'>Benjamin Franklin High School for Finance &amp; Information Technology</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/29Q326/index.html'>Cambria Heights Academy</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/29Q327/index.html'>Eagle Academy for Young Men III</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/29Q492/index.html'>Mathematics, Science Research and Technology Magnet High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/29Q498/index.html'>Humanities &amp; Arts Magnet High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/30Q258/index.html'>Energy Tech High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/30Q286/index.html'>Young Women&#39;s Leadership School, Astoria</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/30Q301/index.html'>Academy for Careers in Television and Film</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/30Q445/index.html'>William Cullen Bryant High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/30Q450/index.html'>Long Island City High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/30Q501/index.html'>Frank Sinatra School of the Arts High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/30Q502/index.html'>Information Technology High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/30Q555/index.html'>Newcomers High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/30Q575/index.html'>Academy of American Studies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/30Q580/index.html'>Baccalaureate School for Global Education</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/31R047/index.html'>CSI High School for International Studies</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/31R064/index.html'>Gaynor McCown Expeditionary Learning School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/31R080/index.html'>The Michael J. Petrides School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/31R440/index.html'>New Dorp High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/31R445/index.html'>Port Richmond High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/31R450/index.html'>Curtis High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/31R455/index.html'>Tottenville High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/31R460/index.html'>Susan E. Wagner High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/31R600/index.html'>Ralph R. McKee Career and Technical Education High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/31R605/index.html'>Staten Island Technical High School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/32K168/index.html'>The Brooklyn School for Math and Research</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/32K403/index.html'>Academy for Environmental Leadership</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/32K545/index.html'>EBC High School for Public Service - Bushwick</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/32K549/index.html'>Bushwick School for Social Justice</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/32K552/index.html'>Academy of Urban Planning</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/32K554/index.html'>All City Leadership Secondary School</a>
+      </li>
+    
+      <li class='item'>
+        <a href='school/32K556/index.html'>Bushwick Leaders High School for Academic Excellence</a>
+      </li>
+    
+
+  </ul>
+
+  </div>
+</main>
+<footer class='ui vertical inverted blue very padded segment'>
+  <div class='ui container'>
+    <small>&copy; 2018</small>
+  </div>
+</footer>
+</body>
+</html>
