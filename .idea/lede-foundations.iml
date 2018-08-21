@@ -16,5 +16,9 @@
     <orderEntry type="library" name="R User Library" level="project" />
     <orderEntry type="library" name="Python 3.6 interpreter library" level="application" />
     <orderEntry type="library" name="leaflet" level="application" />
+    <orderEntry type="library" name="semantic" level="application" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
   </component>
 </module>

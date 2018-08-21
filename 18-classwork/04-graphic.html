@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Review</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <style>
+      svg { 
+        background: #f9f9f9;
+        display: block;
+        margin: 0 auto;
+      }
+
+      h1 { margin-bottom: 2rem; }
+
+      body {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+
+      h3 { 
+        margin-top: 3rem; 
+        margin-bottom: 1rem;
+      }
+
+      .container {
+        max-width: 46rem;
+      }
+
+      img.block {
+        display: block;
+        border: solid #333 1p;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+</head>
+<body>
+<div class="container">
+  <h1>Building a "real" graphic</h1>
+  <p>We have an <code>svg</code> with the <code>id</code> of <code>viz</code></p>
+  <p>Evenly space out each city, color it according to its population, and size the circle based on its square miles.</p>
+  <div id="graphic">
+    <svg id="viz">
+      <circle></circle>
+      <circle></circle>
+      <circle></circle>
+      <circle></circle>
+    </svg>
+  </div>
+
+  <!-- This is D3, our graphing library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+
+  <!-- Now we include our actual visualization -->
+  <script src="04-graphic.js"></script>
+</div>
+</body>
+</html>
