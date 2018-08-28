@@ -18,6 +18,7 @@
     <orderEntry type="library" name="leaflet" level="application" />
     <orderEntry type="library" name="semantic" level="application" />
     <orderEntry type="library" name="d3" level="application" />
+    <orderEntry type="library" name="vue" level="application" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />

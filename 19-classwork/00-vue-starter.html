@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html xmlns:v-on='http://www.w3.org/1999/xhtml'>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -7,7 +7,7 @@
 
   </head>
   <body>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/vue@2.5.17/dist/vue.js"></script>
 
     <div class="container" id="app">
       <div class="row">
@@ -15,8 +15,23 @@
 
           <div id="app">
 
-            <h1>This is our app</h1>
+            <h1>{{message}}</h1>
+            
+            <h2>Button clicked: {{ counter }}</h2>
+
+            <a class='btn btn-info btn-default' v-on:click='increment'>Click to 
+            count</a>
+            
             <p>We're going to do a few things in our application:</p>
+            <a class='btn btn-info btn-default' 
+                v-on:click='changeText'>Button</a>
+            
+            <div class='alert alert-info mt-3' v-if='tooManyClicks'>OINK</div>
+            <ul>
+              <li v-for='name in names' v-on:click='sayHello(name)'>{{ name 
+                  }}</li>
+            </ul>
+            
             <ul>
               <li>Have buttons to show/hide a message</li>
               <li>Have a button to change our data</li>
@@ -36,10 +51,25 @@
       var app = new Vue({
         el: '#app',
         data: {
+          message: 'Hello world',
+          counter: 0,
+          names: ['Smushface', 'boy abby', 'stympy', 'ringleader']
         },
         computed: {
+          tooManyClicks: function () {
+            return this.counter > 4
+          }
         },
         methods: {
+          changeText: function(){
+            app.message = 'Changed text'
+          },
+          increment: function(){
+            app.counter += 1
+          },
+          sayHello: function (name) {
+            app.message = 'Hello ' + name
+          }
         }
       })
     </script>
